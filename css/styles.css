@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    /* bron: https://i.pinimg.com/originals/78/05/3f/78053f853b9a4268b1bb456fb87489e4.jpg */
+    background-image: url("../images/background.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* bron: https://i.pinimg.com/originals/78/05/3f/78053f853b9a4268b1bb456fb87489e4.jpg */
+.give-food {
+    background-image: url("../images/background.jpeg");
+}
+
+/* bron: https://i.pinimg.com/originals/78/05/3f/78053f853b9a4268b1bb456fb87489e4.jpg */
+.give-drink {
+    background-image: url("../images/background.jpeg");
+}
+
+/* bron: https://cdn.wallpapersafari.com/72/64/uTLkOV.jpg */
+.go-adventure {
+    background-image: url("../images/adventure.jpeg");
+}
+
+/* bron: https://i.imgur.com/dICQJkd.jpg */
+.go-sleep {
+    background-image: url("../images/bed.jpeg");
+}
+
+
+
+
+main {
+    width: 50%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
+
+section:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:nth-child(3) {
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+img {
+    width: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: black;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+button:hover {
+    background-color: #333;
+}
+
